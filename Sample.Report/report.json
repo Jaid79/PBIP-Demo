@@ -1,0 +1,42 @@
+{
+  "config": "{\"version\":\"5.59\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"version\":\"5.60\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU10",
+            "path": "BaseThemes/CY24SU10.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "e3f40e2002d8dbca4c89",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"d424d7f693851c0bb0da\",\"layouts\":[{\"id\":0,\"position\":{\"x\":207.87561420101966,\"y\":90.7093589240813,\"z\":0,\"width\":551.8152667881612,\"height\":555.594823409998,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"clustered_reports.Report Name\"},{\"queryRef\":\"Sum(clustered_reports.Cluster)\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"c\",\"Entity\":\"clustered_reports\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Report Name\"},\"Name\":\"clustered_reports.Report Name\",\"NativeReferenceName\":\"Report Name\"},{\"Aggregation\":{\"Expression\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"Cluster\"}},\"Function\":0},\"Name\":\"Sum(clustered_reports.Cluster)\",\"NativeReferenceName\":\"Sum of Cluster\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 555.59,
+          "width": 551.82,
+          "x": 207.88,
+          "y": 90.71,
+          "z": 0.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}

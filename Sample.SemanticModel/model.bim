@@ -1,0 +1,518 @@
+{
+  "compatibilityLevel": 1550,
+  "model": {
+    "annotations": [
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"clustered_reports\"]"
+      },
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBIDesktopVersion",
+        "value": "2.138.1452.0 (24.11)"
+      },
+      {
+        "name": "PBI_ProTooling",
+        "value": "[\"DevMode\"]"
+      }
+    ],
+    "culture": "en-IN",
+    "cultures": [
+      {
+        "name": "en-IN",
+        "linguisticMetadata": {
+          "content": {
+            "Language": "en-US",
+            "Version": "1.0.0"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-IN",
+    "tables": [
+      {
+        "name": "clustered_reports",
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Report Name",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b31beddf-d920-4061-b295-1e0acd456a8d",
+            "sourceColumn": "Report Name",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Owning Team",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "5bbab812-15e1-4057-9963-0f84b0718b55",
+            "sourceColumn": "Owning Team",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Task/ Achievment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b9774a28-034c-49a3-abab-f9c21de1aa33",
+            "sourceColumn": "Task/ Achievment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Metrics",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "a5232a45-46f7-49aa-950e-06d6055195b9",
+            "sourceColumn": "Metrics",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Main Filter/ slicer",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "cae1f518-e0e2-4395-948a-747f1e40398b",
+            "sourceColumn": "Main Filter/ slicer",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Data Period",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c262c890-14f9-40ff-a341-15c1675863f2",
+            "sourceColumn": "Data Period",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Audience",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "317a0aeb-8c59-44eb-8d57-38323ff9867e",
+            "sourceColumn": "Audience",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Audience / Function",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "8df426e9-6081-4615-8a7c-9698c2ad3255",
+            "sourceColumn": "Audience / Function",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Top users / Leaders",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "ad861165-9f33-4df6-a57c-10978ec7022b",
+            "sourceColumn": "Top users / Leaders",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Team / Segment",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "acf19ba4-4bb9-4a69-94e3-751eabe7bd2f",
+            "sourceColumn": "Team / Segment",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Total Views in the past 3 months",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e305f0bb-7a5a-4f1f-ae9a-51968647bab1",
+            "sourceColumn": "Total Views in the past 3 months",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Total Viewers",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fd1cd583-cf69-429e-8eda-27e09b4155ae",
+            "sourceColumn": "Total Viewers",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Refresh automated /  manual",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b4c1d26e-2341-40c7-8b9d-6607cffe5915",
+            "sourceColumn": "Refresh automated /  manual",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Custom mappings",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "724cb5c4-daa0-43fc-98ff-d83742c78a85",
+            "sourceColumn": "Custom mappings",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Time spent to refresh",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "658216ec-ef2f-442d-ac71-72767ca8b6fd",
+            "sourceColumn": "Time spent to refresh",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Refresh Freq",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "50ace944-e124-44fa-a3b7-015c65ead278",
+            "sourceColumn": "Refresh Freq",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Time Spent in a quarter in minutes",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "55c6b4d1-19e5-429e-9384-93ba53a1214a",
+            "sourceColumn": "Time Spent in a quarter in minutes",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "Data source",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "e482a2fd-7509-406f-a99b-f4af3c6379a5",
+            "sourceColumn": "Data source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Data Scope",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "af586f41-5b32-4e0e-adc0-f6bdce4872eb",
+            "sourceColumn": "Data Scope",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Owner",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "2199b3b3-770b-4b77-948f-36903c5aa8ab",
+            "sourceColumn": "Owner",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Purpose",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "04644ad9-dd5c-4f07-bb97-596c564be26b",
+            "sourceColumn": "Purpose",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Comments",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b9b0c979-5bd4-465f-aba0-75510316cc0b",
+            "sourceColumn": "Comments",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "URL",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "152723c4-f32e-444c-a7ec-d26965c20e23",
+            "sourceColumn": "URL",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Next step (owner's recommendation)",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "821c1327-7a7e-4fdf-9a09-329405c70062",
+            "sourceColumn": "Next step (owner's recommendation)",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Excel / Power BI",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "dc14b4d2-a174-434f-ac02-453441460eae",
+            "sourceColumn": "Excel / Power BI",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Stop / Continue / Start",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "40657ec3-6452-46a3-ab19-894793fbfcdc",
+            "sourceColumn": "Stop / Continue / Start",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Why continue?",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "c6c0e0a7-f5a5-49ad-ba22-5824dfccf751",
+            "sourceColumn": "Why continue?",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Which filter/metrics are missing?",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "3e6439ac-da2c-4dad-b0d2-ab9b82b91627",
+            "sourceColumn": "Which filter/metrics are missing?",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Should the report be expanded?",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "fe619b9f-d5ec-47e9-9fce-6a72aef04935",
+            "sourceColumn": "Should the report be expanded?",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Combine",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "d522169d-ff21-4983-9dc5-b7d52947fe63",
+            "sourceColumn": "Combine",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Comments - why global report not leveraged",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "868eefab-dae0-408c-a148-6bb6a1ea8a24",
+            "sourceColumn": "Comments - why global report not leveraged",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Who should own it?",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "b2248324-2ea8-43e5-aa92-8bb95bb979c3",
+            "sourceColumn": "Who should own it?",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Row Level Security",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "lineageTag": "9e5b2ecd-6d19-4661-8ff4-ab02b298cbae",
+            "sourceColumn": "Row Level Security",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "Cluster",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "lineageTag": "5c37f0ba-ee6b-4e7f-93f0-aaf91055e8fc",
+            "sourceColumn": "Cluster",
+            "summarizeBy": "sum"
+          }
+        ],
+        "lineageTag": "4e08a03f-fccd-4b23-bbfa-68802f2edce1",
+        "partitions": [
+          {
+            "name": "clustered_reports",
+            "mode": "import",
+            "source": {
+              "expression": [
+                "let",
+                "    Source = Excel.Workbook(File.Contents(\"C:\\Users\\JaidAnwarMAQSoftware\\Downloads\\clustered_reports.xlsx\"), null, true),",
+                "    clustered_reports_Sheet = Source{[Item=\"clustered_reports\",Kind=\"Sheet\"]}[Data],",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(clustered_reports_Sheet, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Report Name\", type text}, {\"Owning Team\", type text}, {\"Task/ Achievment\", type text}, {\"Metrics\", type text}, {\"Main Filter/ slicer\", type text}, {\"Data Period\", type text}, {\"Audience\", type text}, {\"Audience / Function\", type text}, {\"Top users / Leaders\", type text}, {\"Team / Segment\", type text}, {\"Total Views in the past 3 months\", type any}, {\"Total Viewers\", type any}, {\"Refresh automated /  manual\", type text}, {\"Custom mappings\", type text}, {\"Time spent to refresh\", type any}, {\"Refresh Freq\", type text}, {\"Time Spent in a quarter in minutes\", Int64.Type}, {\"Data source\", type text}, {\"Data Scope\", type text}, {\"Owner\", type text}, {\"Purpose\", type text}, {\"Comments\", type text}, {\"URL\", type text}, {\"Next step (owner's recommendation)\", type text}, {\"Excel / Power BI\", type text}, {\"Stop / Continue / Start\", type text}, {\"Why continue?\", type text}, {\"Which filter/metrics are missing?\", type any}, {\"Should the report be expanded?\", type any}, {\"Combine\", type text}, {\"Comments - why global report not leveraged\", type text}, {\"Who should own it?\", type any}, {\"Row Level Security\", type any}, {\"Cluster\", Int64.Type}})",
+                "in",
+                "    #\"Changed Type\""
+              ],
+              "type": "m"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
